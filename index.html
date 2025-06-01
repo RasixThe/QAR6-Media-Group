@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="az">
 <head>
@@ -45,6 +46,21 @@
         section {
             margin-bottom: 50px;
         }
+        .site-title {
+            border: 1px solid white;
+            padding: 10px 20px;
+            display: inline-block;
+            border-radius: 10px;
+            font-size: 28px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background-color: rgba(255,255,255,0.05);
+        }
+        .site-title img {
+            width: 30px;
+            height: 30px;
+        }
     </style>
 </head>
 <body>
@@ -55,7 +71,10 @@
     </div>
 
     <header>
-        <h1>HM Media Group</h1>
+        <div class="site-title">
+            <img src="https://cdn-icons-png.flaticon.com/512/3106/3106782.png" alt="icon">
+            <span>HM Media Group</span>
+        </div>
     </header>
 
     <nav>
