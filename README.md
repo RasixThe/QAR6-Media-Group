@@ -1,1 +1,1 @@
-# HM-MEDIA-GROUP
+# Whiteland Media Group
