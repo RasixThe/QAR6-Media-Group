@@ -1,1 +1,1 @@
-# Whiteland Media Group
+# QAR6 Media Group
