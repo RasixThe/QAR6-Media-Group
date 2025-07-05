@@ -1,120 +1,116 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="az">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>TƏNQİDOLOQ</title>
-  <link rel="stylesheet" href="style.css"/>
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xəbər Saytı - Oxşar Dizayn</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+        }
+        header {
+            background: #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        header .logo {
+            color: #00a0df;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+        }
+        .main {
+            display: flex;
+            margin: 20px auto;
+            max-width: 1200px;
+            gap: 20px;
+        }
+        .content {
+            flex: 3;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .sidebar {
+            flex: 1;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+        .headline {
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+        .article img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 15px;
+        }
+        .article p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <div class="site-title">TƏNQİDOLOQ</div>
+
+<header>
+    <div class="logo">oxu.az</div>
     <nav>
-      <ul>
-        <li><a href="#">Başlıq 1</a></li>
-        <li><a href="#">Başlıq 2</a></li>
-        <li><a href="#">Başlıq 3</a></li>
-      </ul>
+        <a href="#">Baş səhifə</a>
+        <a href="#">Siyasət</a>
+        <a href="#">İqtisadiyyat</a>
+        <a href="#">İdman</a>
+        <a href="#">Mədəniyyət</a>
     </nav>
-  </header>
+</header>
 
-  <div class="divider"></div>
+<div class="main">
+    <div class="content">
+        <div class="headline">İlham Əliyev və Özbəkistan Prezidenti arasında görüş</div>
+        <div class="article">
+            <img src="https://via.placeholder.com/800x400?text=X%C9%99b%C9%99r+foto" alt="Xəbər şəkli">
+            <p>Azərbaycan Prezidenti İlham Əliyev və Özbəkistan Prezidenti arasında keçirilən görüşdə ikitərəfli əməkdaşlıq məsələləri müzakirə olunub...</p>
+        </div>
+    </div>
+    <div class="sidebar">
+        <h3>Son xəbərlər</h3>
+        <ul>
+            <li><a href="#">Xankəndidə ECO sammiti başladı</a></li>
+            <li><a href="#">Rusiyada azərbaycanlılara hücum</a></li>
+            <li><a href="#">Fransanın xarici borcu pik həddə çatdı</a></li>
+        </ul>
+        <h3>Reklam</h3>
+        <img src="https://via.placeholder.com/300x250?text=Reklam" alt="Reklam">
+    </div>
+</div>
 
-  <main>
-    <section class="content">
-      <p>Bura saytınızın əsas məzmun hissəsidir. Tənqidi analizlər, yazılar və digər məlumatları yerləşdirə bilərsiniz.</p>
-    </section>
-  </main>
+<footer>
+    &copy; 2025 Xəbər Saytı. Bütün hüquqlar qorunur.
+</footer>
 
-  <footer>
-    <a href="#" class="social"><i class="fab fa-youtube"></i></a>
-    <a href="#" class="social"><i class="fab fa-instagram"></i></a>
-    <a href="#" class="social"><i class="fab fa-tiktok"></i></a>
-  </footer>
 </body>
 </html>
-
-<!-- style.css -->
-<style>
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
-/* Üst hissə */
-header {
-  background-color: yellow;
-  text-align: center;
-  padding: 20px;
-  color: black;
-}
-
-.site-title {
-  border: 3px solid black;
-  display: inline-block;
-  font-size: 25px;
-  font-weight: bold;
-  padding: 10px 20px;
-}
-
-/* Başlıqlar */
-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 20px 0 0 0;
-  display: flex;
-  justify-content: center;
-  gap: 30px;
-}
-
-nav a {
-  font-size: 25px;
-  font-weight: bold;
-  color: black;
-  text-decoration: none;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-/* Ayırıcı xətt */
-.divider {
-  border-top: 5px solid black;
-}
-
-/* İkinci hissə */
-main {
-  background-color: black;
-  color: yellow;
-  min-height: 300px;
-  text-align: center;
-  padding: 50px 20px;
-}
-
-main p {
-  font-size: 18px;
-  font-weight: bold;
-}
-
-/* Sosial şəbəkə ikonları */
-footer {
-  background-color: black;
-  text-align: center;
-  padding: 20px;
-}
-
-.social {
-  color: yellow;
-  font-size: 30px;
-  margin: 0 15px;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.social:hover {
-  color: white;
-}
-</style>
